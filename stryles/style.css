@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+NO:wght@100..400&display=swap');
 
+:root{
+    --cor-primaria: #000000;
+    --cor-segunda: royalblue;
+    --cor-terceira: white;
+    --cor-rover: #272727;
+
+}
 
 * {
     margin: 0;
@@ -7,14 +14,32 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terceira);
+ }
+
+ .Cabecalho{
+    padding: 2% 0% 0% 13%;
+
+ }
+
+ .Cabecalho_menu{
+    display: flex;
+    gap: 80px;
+ }
+
+ .Cabecalho_menu_link{
+    font-family:"Playwrite NO", cursive;
+    font-size: 24px;
+    font-weight: 600;
+    color:  var(--cor-terceira);
+    text-decoration: none;
+
  }
 
 .Apresentacao{
-    margin: 2% 2%;
+    padding: 2% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +47,7 @@ body {
 }
 
 .Apresentacao__conteudo{
-    width:px;
+    width:auto;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -30,7 +55,7 @@ body {
 }
 
 .Apresentacao_Titulo{
-    font-size: 36px;
+    font-size: auto px;
 }
 
 .Apresentacao_Paragrafo{
@@ -39,19 +64,19 @@ body {
 }
 
  .Titulo{
-    color:royalblue
+    color: var(--cor-segunda)
  }
 
  .subTitulo{
-    color:  royalblue
+    color:  var(--cor-segunda)
  }
 
  .titulo-destaque {
-    color:  royalblue
+    color:  var(--cor-segunda)
  }
 
  .especialidades-destaque{
-    color: royalblue
+    color: var(--cor-segunda)
  }
 
 .Links{
@@ -65,26 +90,37 @@ body {
 
 .Titulos_Links{
     font-family:"Playwrite NO", cursive;
-    font-weight: 400;
+    font-weight: 600 ;
     font-size:  24px;
 }
 
 .Botoes{
-    color:#f6f6f6; 
-    border: 2px dotted royalblue;
-    width: 300px;
+    color:var(--cor-terceira); 
+    border: 2px dotted var(--cor-segunda);
+    width: 200px;
     text-align: center;
     border-radius: 16px;
     font-size: 30px;
     padding: 21.5px 0;
     text-decoration: none;
     font-family: "Dancing Script", cursive;
-    font-weight: 600px;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     gap: 16px;
 }
 
+.Botoes:hover {
+    background-color: var(--cor-rover);
+}
+
+.Rodape{
+    color: var(--cor-segunda);
+    background-color: var(--cor-primaria);
+    padding: 24px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
 .imagem_jovem{
     width: 600px;
 }
