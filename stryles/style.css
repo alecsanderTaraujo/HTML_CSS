@@ -22,6 +22,7 @@ body {
  .Cabecalho{
     padding: 2% 0% 0% 13%;
 
+
  }
 
  .Cabecalho_menu{
@@ -43,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
@@ -97,7 +99,7 @@ body {
 .Botoes{
     color:var(--cor-terceira); 
     border: 2px dotted var(--cor-segunda);
-    width: 30%;
+    width: 90%;
     text-align: center;
     border-radius: 16px;
     font-size: 1.88rem;
@@ -126,3 +128,18 @@ body {
     width: 50%;
 }
 
+@media (max-width: 1200px ) {
+    .Cabecalho{
+        padding: 10%;
+    }
+
+    .Cabecalho_menu{
+        justify-content: center;
+    }
+    
+    .Apresentacao{
+        flex-direction: column-reverse;
+    }
+
+
+}
