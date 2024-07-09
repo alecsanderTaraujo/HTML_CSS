@@ -139,6 +139,11 @@ body {
     
     .Apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .Apresentacao__conteudo{
+        width: auto;
     }
 
 
