@@ -31,7 +31,7 @@ body {
 
  .Cabecalho_menu_link{
     font-family:"Playwrite NO", cursive;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color:  var(--cor-terceira);
     text-decoration: none;
@@ -55,11 +55,11 @@ body {
 }
 
 .Apresentacao_Titulo{
-    font-size: auto px;
+    font-size: 2.25rem px;
 }
 
 .Apresentacao_Paragrafo{
-   font-size: 20px;
+   font-size: 1.25rem;
    font-family: "Dancing Script", cursive; 
 }
 
@@ -91,7 +91,7 @@ body {
 .Titulos_Links{
     font-family:"Playwrite NO", cursive;
     font-weight: 600 ;
-    font-size:  24px;
+    font-size:  1.25rem;
 }
 
 .Botoes{
@@ -100,7 +100,7 @@ body {
     width: 200px;
     text-align: center;
     border-radius: 16px;
-    font-size: 30px;
+    font-size: 1.88rem;
     padding: 21.5px 0;
     text-decoration: none;
     font-family: "Dancing Script", cursive;
@@ -120,6 +120,7 @@ body {
     padding: 24px;
     text-align: center;
     font-family: "Dancing Script", cursive;
+    font-size: 1.25rem;
 }
 .imagem_jovem{
     width: 600px;
